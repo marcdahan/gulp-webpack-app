@@ -1,10 +1,8 @@
 # Gulp/Webpack starter template
 
-За основу взять проект agragera - https://github.com/agragregra/OptimizedHTML-5
+За основу взят проект - https://github.com/agragregra/OptimizedHTML-5
 
-Идеально подходит для быстрой сборки статических HTML сайтов или верстки.
-
-Все задачи выполняются через Gulp. Webpack используется только для сборки Javascript (особенно для ES6 Import/Export, так как Gulp не может сделать это надлежащим образом).
+Все задачи выполняются через Gulp. Webpack используется только для сборки Javascript.
 
 ## Клонирование
 
@@ -20,7 +18,7 @@ rm -rf trunk .gitignore readme.md .git dist .travis.yml
 Для установки зависимостей проекта необходимо в командной строке ввести команды:
 
 ```yarn
-
+yarn
 ```
 
 ## Изменения
