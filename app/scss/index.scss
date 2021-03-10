@@ -6,27 +6,7 @@
 @import './base/font';
 @import './base/imports';
 
-// Default :)
-
-::placeholder {
-  color: #666;
-}
-
-::selection {
-  background-color: $accent;
-  color: #fff;
-}
-
-input,
-textarea {
-  outline: none;
-  &:focus:required:invalid {
-    border-color: red;
-  }
-  &:required:valid {
-    border-color: green;
-  }
-}
+@import './base/general';
 
 // STYLES START HERE ;)
 

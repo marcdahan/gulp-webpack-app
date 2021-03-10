@@ -1,0 +1,21 @@
+// Default :)
+
+::placeholder {
+  color: #666;
+}
+
+::selection {
+  background-color: $accent;
+  color: #fff;
+}
+
+input,
+textarea {
+  outline: none;
+  &:focus:required:invalid {
+    border-color: red;
+  }
+  &:required:valid {
+    border-color: green;
+  }
+}
